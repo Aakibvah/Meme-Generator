@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Karla", sans-serif;
+}
+
+
+/* ----------------------------------------- */
+
+.header {
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 550px;
+    height: 65px;
+}
+
+.header-img {
+    width: 2rem;
+    background-color: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    margin-left: 20px;
+}
+
+.header-title {
+    margin-right: auto;
+    margin-left: 7px;
+    font-size: 1.25rem;
+}
+
+.header-aside {
+    margin-right: 37px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+
+/* ------------Header------------------------ */
+
+main {
+    padding: 36px;
+}
+
+.form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+}
+
+.form-inputs {
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+}
+
+.form-button {
+    grid-column: 1/-1;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.meme-img {
+    margin-top: 2rem;
+    max-width: 100%;
+}
+
+
+/* -----------------form------------------------- */
